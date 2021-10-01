@@ -65,9 +65,8 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 . ~/.aliases
 
-eval $(thefuck --alias)
-source <(kubectl completion zsh)
+#eval $(thefuck --alias)
+#source <(kubectl completion zsh)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-if [ -e /home/astrid/.nix-profile/etc/profile.d/nix.sh ]; then . /home/astrid/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
